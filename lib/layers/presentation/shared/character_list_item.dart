@@ -41,7 +41,7 @@ class CharacterListItem extends StatelessWidget {
 // -----------------------------------------------------------------------------
 
 class _ItemDescription extends StatelessWidget {
-  const _ItemDescription({super.key, required this.item});
+  const _ItemDescription({required this.item});
 
   final Character item;
 
@@ -99,7 +99,7 @@ class _ItemDescription extends StatelessWidget {
 }
 
 class _ItemPhoto extends StatelessWidget {
-  const _ItemPhoto({super.key, required this.item});
+  const _ItemPhoto({required this.item});
 
   final Character item;
 

@@ -56,7 +56,7 @@ class _CharacterViewState extends State<CharacterView> {
 // Content
 // -----------------------------------------------------------------------------
 class _Content extends StatefulWidget {
-  const _Content({super.key});
+  const _Content();
 
   @override
   State<_Content> createState() => __ContentState();

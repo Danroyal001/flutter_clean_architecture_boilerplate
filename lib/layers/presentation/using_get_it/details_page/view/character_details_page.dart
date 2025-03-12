@@ -46,7 +46,7 @@ class CharacterDetailsView extends StatelessWidget {
 // Content
 // -----------------------------------------------------------------------------
 class _Content extends StatelessWidget with GetItMixin {
-  _Content({super.key});
+  _Content();
 
   @override
   Widget build(BuildContext context) {

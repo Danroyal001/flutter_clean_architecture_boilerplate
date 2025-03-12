@@ -56,9 +56,7 @@ class _CharacterViewState extends ConsumerState<CharacterView> {
 // Content
 // -----------------------------------------------------------------------------
 class _Content extends ConsumerStatefulWidget {
-  const _Content({
-    super.key,
-  });
+  const _Content();
 
   @override
   ConsumerState<_Content> createState() => __ContentState();

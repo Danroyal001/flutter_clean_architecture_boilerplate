@@ -50,7 +50,7 @@ class CharacterDetailsView extends StatelessWidget {
 // Content
 // -----------------------------------------------------------------------------
 class _Content extends StatelessWidget {
-  const _Content({super.key, required this.store});
+  const _Content({required this.store});
 
   final CharacterDetailsPageStore store;
 

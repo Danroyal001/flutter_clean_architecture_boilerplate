@@ -68,7 +68,7 @@ class _CharacterViewState extends State<CharacterView> {
 // Content
 // -----------------------------------------------------------------------------
 class _Content extends StatefulWidget {
-  const _Content({super.key, required this.store});
+  const _Content({required this.store});
 
   final CharacterPageStore store;
 

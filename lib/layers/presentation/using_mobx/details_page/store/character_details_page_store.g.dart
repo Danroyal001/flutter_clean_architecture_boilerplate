@@ -20,10 +20,14 @@ mixin _$CharacterDetailsPageStore on CharacterDetailsPageStoreBase, Store {
   @override
   Character get _character => character;
 
+  bool __characterIsInitialized = false;
+
   @override
   set _character(Character value) {
-    _$_characterAtom.reportWrite(value, super._character, () {
+    _$_characterAtom.reportWrite(
+        value, __characterIsInitialized ? super._character : null, () {
       super._character = value;
+      __characterIsInitialized = true;
     });
   }
 

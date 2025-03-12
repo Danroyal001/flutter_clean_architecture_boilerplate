@@ -51,7 +51,7 @@ class _CharacterViewState extends State<CharacterView> with GetItStateMixin {
 // Content
 // -----------------------------------------------------------------------------
 class _Content extends StatefulWidget with GetItStatefulWidgetMixin {
-  _Content({super.key});
+  _Content();
 
   @override
   State<_Content> createState() => __ContentState();
